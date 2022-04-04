@@ -1,4 +1,4 @@
-<p align="center"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmsugensan.edu.ph%2F&psig=AOvVaw0KKPi4W3braHlSRQkYubHO&ust=1649126925248000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNiU7qb8-vYCFQAAAAAdAAAAABAD" width="400"></p>
+<p align="center"><img src="http://salesforceautomation.in/images/queue_management_system.jpg" width="400"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
