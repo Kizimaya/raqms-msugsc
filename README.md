@@ -9,6 +9,10 @@
 
 ## About Laravel
 
+Registrar Appointment Queue Management System -Mindanao State University, GSC The project’s main scope centers on the information gathered from the Registrar Office of Mindanao State University - General Santos City. The Registrar Appointment Queue Management System will be developed to help manage and minimize physical waiting lines in the university, for example during the pandemic where social distancing is mandatory. The study is focused on transactions that involve queue as part of the process and can also be used in any matter where a potential lengthy line will arise while implementing health and safety protocols. The study is limited within the bounds of Mindanao State University – General Santos City with the objective to develop a web-based appointment queueing management system for any transactions that may involve waiting in lines and safety. The project will be able to help manage waiting lines by giving virtual appointment number to clients and notifications about what is going on the queue. Both disperse or digital queues and physical queues will be implemented by the system. Calculating estimated waiting time for each virtual number will not be included in this project.
+
+Gives a safe queueing transaction in accordance to the health and sofety protocols set by the Inter Agency Task Force.
+
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
