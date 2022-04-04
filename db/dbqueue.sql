@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 11, 2022 at 09:50 AM
+-- Generation Time: Apr 04, 2022 at 07:25 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -120,7 +120,7 @@ CREATE TABLE `display` (
 --
 
 INSERT INTO `display` (`id`, `message`, `direction`, `color`, `background_color`, `border_color`, `time_format`, `date_format`, `updated_at`, `display`, `keyboard_mode`, `sms_alert`, `show_note`, `show_officer`, `show_college`, `alert_position`, `language`) VALUES
-(1, 'Registrar Appointment Queue Management System', 'left', '#ff0404', '#000000', '#3c8dbc', 'H:i:s', 'd M, Y', '2020-07-18 13:21:04', 2, 1, 1, 0, 1, 1, 2, 'English');
+(1, 'Token - Queue Management System', 'left', '#ff0404', '#000000', '#3c8dbc', 'H:i:s', 'd M, Y', '2020-07-18 13:21:04', 2, 1, 1, 0, 1, 1, 2, 'English');
 
 -- --------------------------------------------------------
 
@@ -366,14 +366,14 @@ CREATE TABLE `token_setting` (
 --
 
 INSERT INTO `token_setting` (`id`, `college_id`, `counter_id`, `user_id`, `created_at`, `updated_at`, `status`) VALUES
-(7, 1, 1, 2, '2020-05-14 23:43:49', NULL, 1),
-(8, 1, 2, 4, '2020-05-14 23:50:42', NULL, 1),
-(9, 1, 3, 5, '2020-05-14 23:50:55', NULL, 1),
-(10, 4, 5, 6, '2020-05-15 00:19:46', NULL, 1),
-(11, 5, 4, 7, '2020-05-15 14:54:00', NULL, 1),
-(12, 6, 6, 9, '2020-05-15 14:54:15', NULL, 1),
-(13, 6, 7, 8, '2020-05-15 14:54:35', NULL, 1),
-(14, 7, 8, 10, '2020-05-15 14:56:49', NULL, 1);
+(16, 8, 1, 6, '2022-04-04 11:21:46', NULL, 1),
+(17, 9, 2, 5, '2022-04-04 11:21:54', NULL, 1),
+(18, 10, 3, 7, '2022-04-04 11:22:02', NULL, 1),
+(19, 11, 4, 8, '2022-04-04 11:22:10', NULL, 1),
+(20, 12, 5, 4, '2022-04-04 11:22:17', NULL, 1),
+(21, 13, 6, 9, '2022-04-04 11:22:25', NULL, 1),
+(22, 14, 7, 10, '2022-04-04 11:22:36', NULL, 1),
+(23, 15, 8, 2, '2022-04-04 11:22:46', NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -402,9 +402,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `firstname`, `lastname`, `email`, `password`, `college_id`, `mobile`, `photo`, `user_type`, `remember_token`, `created_at`, `updated_at`, `status`) VALUES
-(1, 'iwant', 'sourcecodes', 'admin@iwantsourcecodes.com', '$2y$10$OZLqjk7mNy6GXwClur.vsO6UQdBZgCkprhupW39tan53ZL4l.qO9C', 0, '0123456789', NULL, 5, 'ynIq6Yy1BzKUpRbLQtn2KPQIWGQMBMMIvnw32fDgyyaZRvNepMdm5ySMlhMK', '2016-10-30 00:00:00', '2021-09-26 10:38:09', 1),
+(1, 'iwant', 'sourcecodes', 'admin@iwantsourcecodes.com', '$2y$10$OZLqjk7mNy6GXwClur.vsO6UQdBZgCkprhupW39tan53ZL4l.qO9C', 0, '0123456789', NULL, 5, 'qTzN0tQ4XEJMpnSo1FPRToko9aYmsJy67pIfGLjnuKw8sCizHTtC0gHuDyHM', '2016-10-30 00:00:00', '2022-04-04 13:09:50', 1),
 (2, 'Wane', 'Willian', 'officer@codekernel.net', '$2y$10$U.JTKdWTWSRAw.H6Z.ZS3uJZrWaq3PssflkEe0xNW3ddNu5XS.rZe', 1, '174222584', NULL, 1, 'SLj4LiZ4RUZCXdOIlJ0bt05XbVz5CQx8B5dh67jUF8JUyyuSSRheAkxYXpvm', '2016-10-30 00:00:00', '2020-07-18 01:11:14', 1),
-(3, 'Xada', 'Roe', 'receptionist@codekernel.net', '$2y$10$FcsPFyCggD1kfn91WSDhSeqHc7n7j9X/u/Zbyn8kEx6qGjMn7mup2', 2, '0123456789', NULL, 2, 'pYM7rlWoDzUmUuRRPv6NFz33dePk5eLkYUL8thjYCQI5yVZBPkzpq7oB5ZF0', '2016-10-30 00:00:00', '2020-07-16 15:37:17', 1),
+(3, 'Xada', 'Roe', 'receptionist@codekernel.net', '$2y$10$gb4GHrak8Wh5bYoO4COO5.d.kyiL9rlU9z0Lr/r6DGelzd8x3uiQi', NULL, '0123456789', NULL, 2, 'xOIj8qyYk74zsQLYqkKNl9OMkAJksCtzwXmY5zzsSkPbA0ZOz9CPLQjWdTMW', '2016-10-30 00:00:00', '2022-04-04 13:11:24', 1),
 (4, 'Jane', 'Doe', 'jane@doe.com', '$2y$10$Rpanf/X2B272cwTgjmKRMeqTlyham0iRu6WmFIAR4b6gaI2Mvh54m', 3, '0123456789', NULL, 1, NULL, '2018-07-29 00:00:00', NULL, 1),
 (5, 'Annie', 'Smith', 'annie@example.com', '$2y$10$Rpanf/X2B272cwTgjmKRMeqTlyham0iRu6WmFIAR4b6gaI2Mvh54m', 3, '0123456789', NULL, 1, NULL, '2018-07-29 00:00:00', NULL, 1),
 (6, 'Alex', 'Smith', 'alex@codekernel.net', '$2y$10$5DwvyIRa5P4CYhAhTQkjeu3BmX.J5sbokQQUuHh/O4pNUv02QvOKq', 4, '01821742285', NULL, 1, NULL, '2020-05-15 00:00:00', '2020-07-18 01:11:23', 1),
@@ -566,7 +566,7 @@ ALTER TABLE `token`
 -- AUTO_INCREMENT for table `token_setting`
 --
 ALTER TABLE `token_setting`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `user`
