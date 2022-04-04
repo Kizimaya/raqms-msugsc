@@ -93,19 +93,19 @@
         <div class="alert hide"></div>
         <input type="hidden" name="id">
         <p>
-            <label for="college_id" class="control-label">{{ trans('app.college') }} </label><br/>
-            {{ Form::select('college_id', $counters, null, ['placeholder' => 'Select Option', 'class'=>'select2', 'id'=>'college_id']) }}<br/>
-        </p>
+            <label for="counter_id" class="control-label">{{ trans('app.counter') }} </label><br/>
+            {{ Form::select('counter_id', $counters, null, ['placeholder' => 'Select Option', 'class'=>'select2', 'id'=>'counter_id']) }}
+        </p> 
 
         <p>
-            <label for="counter_id" class="control-label">{{ trans('app.counter') }} </label><br/>
-            {{ Form::select('counter_id', $colleges, null, ['placeholder' => 'Select Option', 'class'=>'select2', 'id'=>'counter_id']) }}
-        </p> 
+            <label for="college_id" class="control-label">{{ trans('app.college') }} </label><br/>
+            {{ Form::select('college_id', $colleges, null, ['placeholder' => 'Select Option', 'class'=>'select2', 'id'=>'college_id']) }}
+        </p>
 
         <p>
             <label for="user_id" class="control-label">{{ trans('app.officer') }} </label><br/>
             {{ Form::select('user_id', $officers, null, ['placeholder' => 'Select Option', 'class'=>'select2', 'id'=>'user_id']) }}
-        </p>  
+        </p>   
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
