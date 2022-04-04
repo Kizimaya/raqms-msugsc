@@ -18,7 +18,7 @@
 @stop
 
 @section('info.powered-by')
-    Powered by <a href="#" target="_blank">Queue Management System</a> All rights reserved.
+    Powered by <a href="#" target="_blank">Registrar Appointment Queue Management System</a> All rights reserved.
 @stop
 
 @section('info.version')

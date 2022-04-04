@@ -199,7 +199,7 @@ class SmsSettingController extends Controller
             $data->api_key  = '';
             $data->username = '';
             $data->password = '';
-            $data->from     = 'Token - Queue Management System';
+            $data->from     = 'Registrar Appointment Queue Management System';
             $data->sms_template = 'Token No: [TOKEN] \r\n College: [COLLEGE], Counter: [COUNTER] and Officer: [OFFICER]. \r\n Your waiting no is [WAIT]. \r\n [DATE]';
             $data->recall_sms_template = 'Please contact urgently. Token No: [TOKEN] \r\n College: [COLLEGE], Counter: [COUNTER] and Officer: [OFFICER].\r\n[DATE]';
             $data->save();

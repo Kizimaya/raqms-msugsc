@@ -22,7 +22,7 @@ class DisplayController extends Controller
         if (empty($setting)) 
         {
             $insert = DisplaySetting::insert([
-                'message'      => "Token - Queue Management System",
+                'message'      => "Registrar Appointment Queue Management System",
                 'color'        => "#3c8dbc",
                 'background_color' => "#00141c",
                 'border_color' => "#3c8dbc",

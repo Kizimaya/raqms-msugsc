@@ -120,7 +120,7 @@ CREATE TABLE `display` (
 --
 
 INSERT INTO `display` (`id`, `message`, `direction`, `color`, `background_color`, `border_color`, `time_format`, `date_format`, `updated_at`, `display`, `keyboard_mode`, `sms_alert`, `show_note`, `show_officer`, `show_college`, `alert_position`, `language`) VALUES
-(1, 'Token - Queue Management System', 'left', '#ff0404', '#000000', '#3c8dbc', 'H:i:s', 'd M, Y', '2020-07-18 13:21:04', 2, 1, 1, 0, 1, 1, 2, 'English');
+(1, 'Registrar Appointment Queue Management System', 'left', '#ff0404', '#000000', '#3c8dbc', 'H:i:s', 'd M, Y', '2020-07-18 13:21:04', 2, 1, 1, 0, 1, 1, 2, 'English');
 
 -- --------------------------------------------------------
 
