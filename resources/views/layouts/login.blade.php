@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head> 
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -12,7 +12,7 @@
     <!-- font-awesome -->
     <link href="{{ asset('public/assets/css/font-awesome.min.css') }}" rel='stylesheet'>
     <!-- template bootstrap -->
-    <link href="{{ asset('public/assets/css/template.min.css') }}" rel='stylesheet prefetch'> 
+    <link href="{{ asset('public/assets/css/template.min.css') }}" rel='stylesheet prefetch'>
     <!-- select2 -->
     <link href="{{ asset('public/assets/css/select2.min.css') }}" rel='stylesheet'>
     <!-- Jquery  -->
@@ -21,17 +21,18 @@
 <body class="cm-login">
     <div class="loader">
         <div>
-            <span>C</span>
-            <span>O</span>
-            <span>D</span>
-            <span>E</span>
-            <span></span>
-            <span>K</span>
-            <span>E</span>
-            <span>R</span>
-            <span>N</span>
-            <span>E</span>
-            <span>L</span>
+                <span>R</span>
+                <span>A</span>
+                <span>Q</span>
+                <span>M</span>
+                <span>S</span>
+                <span></span>
+                <span>M</span>
+                <span>S</span>
+                <span>U</span>
+                <span>G</span>
+                <span>S</span>
+                <span>C</span>
         </div>
     </div>
 
@@ -39,7 +40,7 @@
         <h2 class="text-primary text-center text-uppercase">{{ \Session::get('app.title') }}</h2>
         <img src="{{ asset('public/assets/img/icons/logo.jpg') }}" width="300" >
     </div>
-    
+
     <div class="col-sm-6 col-md-4 col-lg-3" style="margin:30px auto; float:none;">
         @include('backend.common.info')
         <!-- Starts of Message -->
@@ -71,16 +72,16 @@
         </div>
         <div class="col-xs-6">
           <button type="submit" class="btn btn-block btn-primary">{{ trans('app.signin')}}</button>
-        </div> 
-        {{ Form::close() }}   
-        
+        </div>
+        {{ Form::close() }}
+
         @yield('info.login-credentials')
-    </div>  
+    </div>
 
     <footer class="cm-footer">
         <span class="col-sm-8 col-xs-12 text-left">@yield('info.powered-by') @yield('info.version')</span>
         <span class="col-sm-4 col-xs-12 text-right hidden-xs"> {{ \Session::get('app.copyright_text') }}</span>
-    </footer> 
+    </footer>
 
     <!-- Jquery  -->
     <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>
@@ -91,11 +92,11 @@
 
     <script type="text/javascript">
 
-    $(function() { 
+    $(function() {
         $('table tbody tr').on('click', function() {
             $("input[name=email]").val($(this).children().first().text());
             $("input[name=password]").val($(this).children().first().next().text());
-        }); 
+        });
 
         // select2
         $("select").select2();
@@ -107,7 +108,7 @@
                type:'GET',
                url:'{{ URL::to("common/language/") }}',
                data: {
-                  'locale' : x, 
+                  'locale' : x,
                   '_token' : '<?php echo csrf_token() ?>'
                },
                success:function(data){
@@ -115,14 +116,14 @@
                }, error: function() {
                 alert('failed');
                }
-            });       
-        }); 
+            });
+        });
     }(jQuery));
 
     //preloader
     $(window).load(function() {
         $(".loader").fadeOut("slow");;
     });
-    </script> 
+    </script>
 </body>
 </html>
