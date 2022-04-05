@@ -22,17 +22,17 @@
     <body class="cm-no-transition cm-1-navbar loader-process">
         <div class="loader">
             <div>
+                <span>R</span>
+                <span>A</span>
+                <span>Q</span>
+                <span>M</span>
+                <span>S</span>
                 <span>M</span>
                 <span>S</span>
                 <span>U</span>
                 <span>G</span>
-                <span></span>
-                <span>K</span>
-                <span>E</span>
-                <span>R</span>
-                <span>N</span>
-                <span>E</span>
-                <span>L</span>
+                <span>S</span>
+                <span>C</span>
             </div>
         </div>
         <!-- Starts of Content -->
