@@ -40,7 +40,7 @@
     </div>  
 
     <div class="col-sm-6 col-md-4 col-lg-3" style="margin:30px auto; float: none"> 
-    <img src="{{ asset('public/assets/img/logo.jpg') }}" style="padding: 1px 0 20px 0;" style="margin-left:10px;"> 
+    <img src="public/assets/img/raqms-logo.png" width="459" height="450">
     
         @include('backend.common.info')
         <!-- Starts of Message -->

@@ -178,10 +178,15 @@ a.button {
 
 a.button:hover {
   top: 3px;
-  background-color:##c5000c;
+  background-color:#c5000c;
   -webkit-box-shadow: none; 
   -moz-box-shadow: none; 
   box-shadow: none;
   
 }
+
+div img.center {
+  margin:0 auto;
+}
+
 
