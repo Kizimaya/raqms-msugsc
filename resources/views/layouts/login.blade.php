@@ -36,12 +36,12 @@
         </div>
     </div>
 
-    <div class="text-center" style="padding:35px 0 30px 0;background:maroon;border-bottom:1px solid #ddd;">  
-    </div>  
+    <div class="text-center" style="padding:35px 0 30px 0;background:maroon;border-bottom:1px solid #ddd;">
+    </div>
 
-    <div class="col-sm-6 col-md-4 col-lg-3" style="margin:30px auto; float: none"> 
+    <div class="col-sm-6 col-md-4 col-lg-3" style="margin:30px auto; float: none">
     <img src="public/assets/img/raqms-logo.png" width="459" height="450">
-    
+
         @include('backend.common.info')
         <!-- Starts of Message -->
         <div class="col-xs-12">
@@ -127,3 +127,4 @@
     </script>
 </body>
 </html>
+

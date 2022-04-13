@@ -402,7 +402,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `firstname`, `lastname`, `email`, `password`, `college_id`, `mobile`, `photo`, `user_type`, `remember_token`, `created_at`, `updated_at`, `status`) VALUES
-(1, 'iwant', 'sourcecodes', 'admin@iwantsourcecodes.com', '$2y$10$OZLqjk7mNy6GXwClur.vsO6UQdBZgCkprhupW39tan53ZL4l.qO9C', 0, '0123456789', NULL, 5, 'qTzN0tQ4XEJMpnSo1FPRToko9aYmsJy67pIfGLjnuKw8sCizHTtC0gHuDyHM', '2016-10-30 00:00:00', '2022-04-04 13:09:50', 1),
+(1, 'RAQMS', 'ADMIN', 'admin@msugensan.edu.ph', '$2y$10$OZLqjk7mNy6GXwClur.vsO6UQdBZgCkprhupW39tan53ZL4l.qO9C', 0, '0123456789', NULL, 5, 'qTzN0tQ4XEJMpnSo1FPRToko9aYmsJy67pIfGLjnuKw8sCizHTtC0gHuDyHM', '2016-10-30 00:00:00', '2022-04-04 13:09:50', 1),
 (2, 'Wane', 'Willian', 'officer@codekernel.net', '$2y$10$U.JTKdWTWSRAw.H6Z.ZS3uJZrWaq3PssflkEe0xNW3ddNu5XS.rZe', 1, '174222584', NULL, 1, 'SLj4LiZ4RUZCXdOIlJ0bt05XbVz5CQx8B5dh67jUF8JUyyuSSRheAkxYXpvm', '2016-10-30 00:00:00', '2020-07-18 01:11:14', 1),
 (3, 'Xada', 'Roe', 'receptionist@codekernel.net', '$2y$10$gb4GHrak8Wh5bYoO4COO5.d.kyiL9rlU9z0Lr/r6DGelzd8x3uiQi', NULL, '0123456789', NULL, 2, 'xOIj8qyYk74zsQLYqkKNl9OMkAJksCtzwXmY5zzsSkPbA0ZOz9CPLQjWdTMW', '2016-10-30 00:00:00', '2022-04-04 13:11:24', 1),
 (4, 'Jane', 'Doe', 'jane@doe.com', '$2y$10$Rpanf/X2B272cwTgjmKRMeqTlyham0iRu6WmFIAR4b6gaI2Mvh54m', 3, '0123456789', NULL, 1, NULL, '2018-07-29 00:00:00', NULL, 1),
